@@ -1,60 +1,97 @@
 <!DOCTYPE html>
-<html lang="kz">
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="styles/style.css">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Anton+SC&display=swap" rel="stylesheet">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-	
-
-	<title>Practice PHP</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="description" content="just a Web-site that made by Shyngys A. (~w.b)">
+	<meta name="keywords" content="web-site, site, www, web, whiteblack, white black">
+	<meta name="Author" content="Shyngys A. (~w.b)">
+	<meta name="Copyright" content="Shyngys A. (~w.b)"> 
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>Document</title>
 </head>
 <body>
-	<header>
-		<div class="header-container">
-			<a class="logo" href="/3/">White<span>.</span>Black</a>
-			<nav>
-				<li><a href="">Басты бет</a></li>
-				<li><a href="">Мен туралы</a></li>
-				<li><a href="">Жаңалықтар</a></li>
-				<li><a href="">Қолдау</a></li>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__logo">
+				your logo		
+			</div>
+			<nav class="header__menu">
+				<ul class="header__list">
+					<li>
+						<a href="" class="header__link">home</a>
+					</li>
+					<li>
+						<a href="" class="header__link">about</a>
+					</li>
+					<li>
+						<a href="" class="header__link">courses</a>
+					</li>
+					<li>
+						<a href="" class="header__link">sign in</a>
+					</li>
+				</ul>
+				<img class="menu_bar" src="img/menu-bar.svg" alt="">
 			</nav>
-		</div>
-	</header>
-	<main>
-		<div class="main-container">
-			<aside>
-				<a href="">HTML / CSS</a>
-				<a href="">PHP</a>
-				<a href="">JavaScript</a>
-				<a href="">MySQL</a>
-			</aside>
-			<article>
-				<div class="form-container">
-					<form action="form.php" method="post" enctype="multipart/form-data">
-						<label for="name">Enter name</label><br>
-						<input type="text" name="name" required><br>
-						<label for="email">Enter email</label><br>
-						<input type="email" name="email" required><br>
-						<label for="password">Enter password</label><br>
-						<input type="password" name="password" required><br>
-						<label for="file">Select file</label>
-						<input type="file" name="file" id="file"><br>
-						<input type="submit" value="Login">
-					</form>
+		</header>
+		<main class="main">
+			<div class="beginners">
+				<div class="beginners__item_1">
+					<div class="ui">UI<span>.</span></div>
+					<p class="bgn">BEGINNER<span>'s</span></p>
+					<p class="bec">become a <br>pro-designer</p>
 				</div>
-			</article>
-		</div>
-	</main>
-	<footer>
-		<div class="footer-container">
-			Авторлық Құқықпен қорғалған. <span>White.Black &copy;</span>
-		</div>
-	</footer>
+				<div class="beginners__item_2">
+					<div class="circle"></div>
+					<img class="person" src="img/Curves.png" alt="">
+				</div>
+				<div class="beginners__item_3">
+					<div class="edtn">
+						<span>edition</span>
+						<span>2022</span>
+					</div>
+					<div class="guide">
+						<div class="text">
+							<span>Start guide for beginner designers</span>
+							<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</span>
+						</div>
+						<div class="footer">
+							<span>let's start</span>
+							<span>read more</span>
+						</div>
+					</div>
+				</div>
+				<div class="skill">
+					<div class="first skill_item">
+						<div class="num"><span>+</span>150</div>
+						<div class="text">
+							<span>happy</span>
+							<span>students</span>
+						</div>
+					</div>
+					<div class="second skill_item">
+						<div class="num"><span>+</span>50</div>
+						<div class="text">
+							<span>CERTIFIED</span>
+							<span>courses</span>
+						</div>
+					</div>
+					<div class="second skill_item">
+						<div class="num"><span>+</span>1000</div>
+						<div class="text">
+							<span>AWARDS</span>
+							<span>RECEIVED</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="shadow"></div>
+
+		</main>
+		<footer class="footer">
+			
+		</footer>
+	</div>
 </body>
-</html>
+</html> 
